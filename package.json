@@ -17,6 +17,12 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -30,6 +36,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "autoprefixer": "^10.4.13",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.0"
   }
 }
